@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html>
   <head>
     <meta charset="utf-8">
@@ -9,7 +10,16 @@
   </head>
   <body>
     <nav class="navbar mynav" role="navigation">
+      <div class="container">
+        <a class="navbar-brand mynav" href="{% url 'home' %}">Catalog WebApp</a>
 
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="{% url '' %}"></a></li>
+          <li><a href="{% url '' %}"></a></li>
+          <li><a href="{% url '' %}"></a></li>
+          <li><a href="{% url '' %}"></a></li>
+        </ul>
+      </div>
     </nav>
 
     {% block body_block %}
