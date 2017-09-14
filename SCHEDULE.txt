@@ -1,6 +1,18 @@
 ================================ THINGS TO DO =================================
 
+- change database to PostgreSQL
 
+- add URLs to categories app
+- add URLs to items app
+- add URLs to accounts app
+
+- add Models to categories app
+- add Models to accounts app
+- add Models to items app
+
+- add Views to categories app
+- add Views to accounts app
+- add Views to items app
 
 ================================ WORKING ON NOW ===============================
 
