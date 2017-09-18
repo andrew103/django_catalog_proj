@@ -1,7 +1,15 @@
+================================ IDEAS ========================================
+
+- make catalog into sort of shopping site with different vendors/sellers and shopping cart
+  -> sellers can buy and sell but normal users only buy (make this a required part of sign up form)
+  -> figure out PayPal API integration
+  -> figure out card payment stuff for custom form
+
 ================================ THINGS TO RESEARCH ===========================
 
 - how to launch django app on AWS server
     -> create step by step walkthrough
+- incorporate facebook and google login with django
 
 ================================ THINGS TO DO =================================
 
