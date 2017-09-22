@@ -20,17 +20,14 @@
 
 - add URLs to categories app
 - add URLs to items app
-- add URLs to accounts app
 
 - add Models to categories app
 - add Models to items app
 
 - add Views to categories app
-- add Views to accounts app
 - add Views to items app
 
 - add Templates to categories app
-- add Templates to accounts app
 - add Templates to items app
 
 - add Forms to categories app
@@ -40,6 +37,9 @@
 
 - add Models to accounts app
 - add Forms to accounts app
+- add Templates to accounts app
+- add Views to accounts app
+- add URLs to accounts app
 
 ================================ DONE =========================================
 
