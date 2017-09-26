@@ -45,3 +45,5 @@
 
 
 ================================ NEEDS FIXING =================================
+
+- Login redirect needs to go to home page -> throws error "Reverse for index not found"

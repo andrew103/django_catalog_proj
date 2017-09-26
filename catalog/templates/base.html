@@ -14,10 +14,13 @@
         <a class="navbar-brand" href="{% url 'home' %}">Catalog WebApp</a>
 
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="{% url 'accounts:login' %}">Login</a></li>
-          <li><a href="{% url 'accounts:signup' %}">Sign Up</a></li>
-          <li><a href="{% url 'accounts:logout' %}">Logout</a></li>
-          <li><a href="#">Test 4</a></li>
+          {% if user.is_authenticated %}
+            <li><a href="{% url 'accounts:logout' %}">Logout</a></li>
+            <li><a href="#">Cart</a></li>
+          {% else %}
+            <li><a href="{% url 'accounts:login' %}">Login</a></li>
+            <li><a href="{% url 'accounts:signup' %}">Sign Up</a></li>
+          {% endif %}
         </ul>
       </div>
     </nav>
