@@ -35,15 +35,19 @@
 
 ================================ WORKING ON NOW ===============================
 
+
+================================ DONE =========================================
+
 - add Models to accounts app
 - add Forms to accounts app
 - add Templates to accounts app
 - add Views to accounts app
 - add URLs to accounts app
 
-================================ DONE =========================================
-
-
 ================================ NEEDS FIXING =================================
 
+
+================================ FIXED ERRORS =================================
+
 - Login redirect needs to go to home page -> throws error "Reverse for index not found"
+  -> fixed by making sure the given url name in 'urls.py' was the same in the redirect variables in the 'settings.py' file
