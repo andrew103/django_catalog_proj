@@ -18,23 +18,23 @@
 
 - change database to PostgreSQL
 
-- add URLs to categories app
 - add URLs to items app
 
-- add Models to categories app
 - add Models to items app
 
-- add Views to categories app
 - add Views to items app
 
-- add Templates to categories app
 - add Templates to items app
 
-- add Forms to categories app
 - add Forms to items app
 
 ================================ WORKING ON NOW ===============================
 
+- add URLs to categories app
+- add Models to categories app
+- add Views to categories app
+- add Templates to categories app
+- add Forms to categories app
 
 ================================ DONE =========================================
 
