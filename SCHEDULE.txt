@@ -38,6 +38,8 @@
 - add Templates to categories app
 - add Forms to categories app
 
+- add views to create/delete/edit categories
+
 ================================ DONE =========================================
 
 - add Models to accounts app
