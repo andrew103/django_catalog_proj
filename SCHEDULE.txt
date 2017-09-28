@@ -6,6 +6,8 @@
   -> figure out card payment stuff for custom form
   -> give sellers some sort of analytics page to track sales
 
+- for category list page, have hover-over info icon that displays category details when moused over
+
 ================================ THINGS TO RESEARCH ===========================
 
 - how to launch django app on AWS server
